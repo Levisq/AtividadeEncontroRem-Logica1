@@ -18,6 +18,7 @@ if (Peso.length > 100){
 
 let nomePeca = "Rebimboca da parafuseta"
 if (nomePeca.length > 3){
+    //È possivel cadastrar nome
     console.log ("Peça válida para cadastro!")
 } else if (nomePeca.length == 0){
     console.log ("O nome da peça não pode ser vazio")
